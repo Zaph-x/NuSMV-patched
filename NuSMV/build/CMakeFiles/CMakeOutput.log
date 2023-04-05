@@ -1,0 +1,1343 @@
+The system is: Linux - 6.1.12-arch1-1 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /sbin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/3.25.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /sbin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/3.25.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-JiLwGz
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_34384/fast && /sbin/make  -f CMakeFiles/cmTC_34384.dir/build.make CMakeFiles/cmTC_34384.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-JiLwGz'
+Building C object CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o
+/sbin/cc   -v -o CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/sbin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20230201 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34384.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_34384.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPZ87ny.s
+GNU C17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20230201, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20230201, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 99df1fbb4c4d7eeb8d93f0979bfab9ce
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34384.dir/'
+ as -v --64 -o CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o /tmp/ccPZ87ny.s
+GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_34384
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34384.dir/link.txt --verbose=1
+/sbin/cc  -v -rdynamic CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o -o cmTC_34384 
+Using built-in specs.
+COLLECT_GCC=/sbin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20230201 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_34384' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_34384.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFB1a9W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_34384 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../.. CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_34384' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_34384.'
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-JiLwGz'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-JiLwGz]
+  ignore line: []
+  ignore line: [Run Build Command(s):/sbin/make -f Makefile cmTC_34384/fast && /sbin/make  -f CMakeFiles/cmTC_34384.dir/build.make CMakeFiles/cmTC_34384.dir/build]
+  ignore line: [make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-JiLwGz']
+  ignore line: [Building C object CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/sbin/cc   -v -o CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/sbin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20230201 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34384.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_34384.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPZ87ny.s]
+  ignore line: [GNU C17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20230201  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20230201  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 99df1fbb4c4d7eeb8d93f0979bfab9ce]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34384.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o /tmp/ccPZ87ny.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_34384]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34384.dir/link.txt --verbose=1]
+  ignore line: [/sbin/cc  -v -rdynamic CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o -o cmTC_34384 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/sbin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20230201 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_34384' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_34384.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFB1a9W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_34384 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../.. CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFB1a9W.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_34384] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..]
+    arg [CMakeFiles/cmTC_34384.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9kHDEA
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_414c4/fast && /sbin/make  -f CMakeFiles/cmTC_414c4.dir/build.make CMakeFiles/cmTC_414c4.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9kHDEA'
+Building CXX object CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o
+/sbin/c++   -v -o CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/sbin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20230201 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_414c4.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_414c4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccaHOgCs.s
+GNU C++17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20230201, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20230201, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ab2adc4aa87e9c5b6e6cb24c55e663d5
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_414c4.dir/'
+ as -v --64 -o CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaHOgCs.s
+GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_414c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_414c4.dir/link.txt --verbose=1
+/sbin/c++  -v -rdynamic CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_414c4 
+Using built-in specs.
+COLLECT_GCC=/sbin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20230201 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_414c4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_414c4.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxhh66n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_414c4 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../.. CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_414c4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_414c4.'
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9kHDEA'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1] ==> [/usr/include/c++/12.2.1]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/12.2.1/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward] ==> [/usr/include/c++/12.2.1/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12.2.1;/usr/include/c++/12.2.1/x86_64-pc-linux-gnu;/usr/include/c++/12.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9kHDEA]
+  ignore line: []
+  ignore line: [Run Build Command(s):/sbin/make -f Makefile cmTC_414c4/fast && /sbin/make  -f CMakeFiles/cmTC_414c4.dir/build.make CMakeFiles/cmTC_414c4.dir/build]
+  ignore line: [make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9kHDEA']
+  ignore line: [Building CXX object CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/sbin/c++   -v -o CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/sbin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20230201 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_414c4.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_414c4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccaHOgCs.s]
+  ignore line: [GNU C++17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20230201  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20230201  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ab2adc4aa87e9c5b6e6cb24c55e663d5]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_414c4.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaHOgCs.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_414c4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_414c4.dir/link.txt --verbose=1]
+  ignore line: [/sbin/c++  -v -rdynamic CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_414c4 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/sbin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20230201 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_414c4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_414c4.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxhh66n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_414c4 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../.. CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxhh66n.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_414c4] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..]
+    arg [CMakeFiles/cmTC_414c4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-c1komy
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_caf3b/fast && /sbin/make  -f CMakeFiles/cmTC_caf3b.dir/build.make CMakeFiles/cmTC_caf3b.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-c1komy'
+Building C object CMakeFiles/cmTC_caf3b.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_caf3b.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-c1komy/CheckIncludeFile.c
+Linking C executable cmTC_caf3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caf3b.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_caf3b.dir/CheckIncludeFile.c.o -o cmTC_caf3b 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-c1komy'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MKYmNI
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_ff7a5/fast && /sbin/make  -f CMakeFiles/cmTC_ff7a5.dir/build.make CMakeFiles/cmTC_ff7a5.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MKYmNI'
+Building C object CMakeFiles/cmTC_ff7a5.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_ff7a5.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MKYmNI/CheckIncludeFile.c
+Linking C executable cmTC_ff7a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff7a5.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_ff7a5.dir/CheckIncludeFile.c.o -o cmTC_ff7a5 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MKYmNI'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-vrcl8V
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_c80f2/fast && /sbin/make  -f CMakeFiles/cmTC_c80f2.dir/build.make CMakeFiles/cmTC_c80f2.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-vrcl8V'
+Building C object CMakeFiles/cmTC_c80f2.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_c80f2.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-vrcl8V/CheckIncludeFile.c
+Linking C executable cmTC_c80f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c80f2.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_c80f2.dir/CheckIncludeFile.c.o -o cmTC_c80f2 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-vrcl8V'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-cPKTKN
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_30b29/fast && /sbin/make  -f CMakeFiles/cmTC_30b29.dir/build.make CMakeFiles/cmTC_30b29.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-cPKTKN'
+Building C object CMakeFiles/cmTC_30b29.dir/_int_size.c.o
+/sbin/cc    -o CMakeFiles/cmTC_30b29.dir/_int_size.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-cPKTKN/_int_size.c
+Linking C executable cmTC_30b29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30b29.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_30b29.dir/_int_size.c.o -o cmTC_30b29 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-cPKTKN'
+
+
+
+Determining size of long int passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Xj41X5
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_05210/fast && /sbin/make  -f CMakeFiles/cmTC_05210.dir/build.make CMakeFiles/cmTC_05210.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Xj41X5'
+Building C object CMakeFiles/cmTC_05210.dir/_long_size.c.o
+/sbin/cc    -o CMakeFiles/cmTC_05210.dir/_long_size.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Xj41X5/_long_size.c
+Linking C executable cmTC_05210
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05210.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_05210.dir/_long_size.c.o -o cmTC_05210 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Xj41X5'
+
+
+
+Determining size of void * passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-LO78Ai
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_73377/fast && /sbin/make  -f CMakeFiles/cmTC_73377.dir/build.make CMakeFiles/cmTC_73377.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-LO78Ai'
+Building C object CMakeFiles/cmTC_73377.dir/_voidp_size.c.o
+/sbin/cc    -o CMakeFiles/cmTC_73377.dir/_voidp_size.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-LO78Ai/_voidp_size.c
+Linking C executable cmTC_73377
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73377.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_73377.dir/_voidp_size.c.o -o cmTC_73377 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-LO78Ai'
+
+
+
+Performing C SOURCE FILE Test _have_funcattr_noreturn succeeded with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CB8TTp
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_2213a/fast && /sbin/make  -f CMakeFiles/cmTC_2213a.dir/build.make CMakeFiles/cmTC_2213a.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CB8TTp'
+Building C object CMakeFiles/cmTC_2213a.dir/src.c.o
+/sbin/cc -D_have_funcattr_noreturn   -o CMakeFiles/cmTC_2213a.dir/src.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CB8TTp/src.c
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CB8TTp/src.c: In function ‘f’:
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CB8TTp/src.c:2:46: warning: ‘noreturn’ function does return
+    2 |     __attribute__ ((noreturn)) void f(void) {}
+      |                                              ^
+Linking C executable cmTC_2213a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2213a.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_2213a.dir/src.c.o -o cmTC_2213a 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CB8TTp'
+
+
+Source file was:
+
+    __attribute__ ((noreturn)) void f(void) {}
+
+    int main(void)
+    {
+        f();
+        return 0;
+    }
+    
+
+Performing C SOURCE FILE Test _have_funcattr_warn_unused_result succeeded with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Yi9p31
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_a37ad/fast && /sbin/make  -f CMakeFiles/cmTC_a37ad.dir/build.make CMakeFiles/cmTC_a37ad.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Yi9p31'
+Building C object CMakeFiles/cmTC_a37ad.dir/src.c.o
+/sbin/cc -D_have_funcattr_warn_unused_result   -o CMakeFiles/cmTC_a37ad.dir/src.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Yi9p31/src.c
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Yi9p31/src.c: In function ‘main’:
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Yi9p31/src.c:6:9: warning: ignoring return value of ‘f’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    6 |         f(1);
+      |         ^~~~
+Linking C executable cmTC_a37ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a37ad.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_a37ad.dir/src.c.o -o cmTC_a37ad 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Yi9p31'
+
+
+Source file was:
+
+    __attribute__ ((__warn_unused_result__)) int f(int i) { return i; }
+
+    int main(void)
+    {
+        f(1);
+        return 0;
+    }
+    
+
+Performing C SOURCE FILE Test HAVE_MALLOC succeeded with the following compile output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-5BR60H
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_43050/fast && /sbin/make  -f CMakeFiles/cmTC_43050.dir/build.make CMakeFiles/cmTC_43050.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-5BR60H'
+Building C object CMakeFiles/cmTC_43050.dir/src.c.o
+/sbin/cc -DHAVE_MALLOC   -o CMakeFiles/cmTC_43050.dir/src.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-5BR60H/src.c
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-5BR60H/src.c:2:15: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+    2 |         char *malloc();
+      |               ^~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-5BR60H/src.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | 
+Linking C executable cmTC_43050
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43050.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_43050.dir/src.c.o -o cmTC_43050 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-5BR60H'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        char *malloc();
+
+        int main(void)
+        {
+            return (!malloc(0));
+        }
+        
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CGvmG7
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_63509/fast && /sbin/make  -f CMakeFiles/cmTC_63509.dir/build.make CMakeFiles/cmTC_63509.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CGvmG7'
+Building C object CMakeFiles/cmTC_63509.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_63509.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CGvmG7/CheckIncludeFile.c
+Linking C executable cmTC_63509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63509.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_63509.dir/CheckIncludeFile.c.o -o cmTC_63509 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-CGvmG7'
+
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-8jS7bp
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_419e5/fast && /sbin/make  -f CMakeFiles/cmTC_419e5.dir/build.make CMakeFiles/cmTC_419e5.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-8jS7bp'
+Building C object CMakeFiles/cmTC_419e5.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_419e5.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-8jS7bp/CheckIncludeFile.c
+Linking C executable cmTC_419e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_419e5.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_419e5.dir/CheckIncludeFile.c.o -o cmTC_419e5 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-8jS7bp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-QkTvBj
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_fb137/fast && /sbin/make  -f CMakeFiles/cmTC_fb137.dir/build.make CMakeFiles/cmTC_fb137.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-QkTvBj'
+Building C object CMakeFiles/cmTC_fb137.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_fb137.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-QkTvBj/CheckIncludeFile.c
+Linking C executable cmTC_fb137
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb137.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_fb137.dir/CheckIncludeFile.c.o -o cmTC_fb137 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-QkTvBj'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lQOmpl
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_ec943/fast && /sbin/make  -f CMakeFiles/cmTC_ec943.dir/build.make CMakeFiles/cmTC_ec943.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lQOmpl'
+Building C object CMakeFiles/cmTC_ec943.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_ec943.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lQOmpl/CheckIncludeFile.c
+Linking C executable cmTC_ec943
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec943.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_ec943.dir/CheckIncludeFile.c.o -o cmTC_ec943 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lQOmpl'
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-DNXrrH
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_df1ee/fast && /sbin/make  -f CMakeFiles/cmTC_df1ee.dir/build.make CMakeFiles/cmTC_df1ee.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-DNXrrH'
+Building C object CMakeFiles/cmTC_df1ee.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_df1ee.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-DNXrrH/CheckIncludeFile.c
+Linking C executable cmTC_df1ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df1ee.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_df1ee.dir/CheckIncludeFile.c.o -o cmTC_df1ee 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-DNXrrH'
+
+
+
+Determining if the include file fnmatch.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-6Mz56V
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_8b032/fast && /sbin/make  -f CMakeFiles/cmTC_8b032.dir/build.make CMakeFiles/cmTC_8b032.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-6Mz56V'
+Building C object CMakeFiles/cmTC_8b032.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_8b032.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-6Mz56V/CheckIncludeFile.c
+Linking C executable cmTC_8b032
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b032.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_8b032.dir/CheckIncludeFile.c.o -o cmTC_8b032 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-6Mz56V'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-OYDF1Y
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_aaea8/fast && /sbin/make  -f CMakeFiles/cmTC_aaea8.dir/build.make CMakeFiles/cmTC_aaea8.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-OYDF1Y'
+Building C object CMakeFiles/cmTC_aaea8.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_aaea8.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-OYDF1Y/CheckIncludeFile.c
+Linking C executable cmTC_aaea8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaea8.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_aaea8.dir/CheckIncludeFile.c.o -o cmTC_aaea8 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-OYDF1Y'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9TZyAN
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_51da2/fast && /sbin/make  -f CMakeFiles/cmTC_51da2.dir/build.make CMakeFiles/cmTC_51da2.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9TZyAN'
+Building C object CMakeFiles/cmTC_51da2.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_51da2.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9TZyAN/CheckIncludeFile.c
+Linking C executable cmTC_51da2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51da2.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_51da2.dir/CheckIncludeFile.c.o -o cmTC_51da2 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9TZyAN'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-0cwkRo
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_adeef/fast && /sbin/make  -f CMakeFiles/cmTC_adeef.dir/build.make CMakeFiles/cmTC_adeef.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-0cwkRo'
+Building C object CMakeFiles/cmTC_adeef.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_adeef.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-0cwkRo/CheckIncludeFile.c
+Linking C executable cmTC_adeef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adeef.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_adeef.dir/CheckIncludeFile.c.o -o cmTC_adeef 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-0cwkRo'
+
+
+
+Determining if the include file regex.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Cxd5H4
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_5c571/fast && /sbin/make  -f CMakeFiles/cmTC_5c571.dir/build.make CMakeFiles/cmTC_5c571.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Cxd5H4'
+Building C object CMakeFiles/cmTC_5c571.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_5c571.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Cxd5H4/CheckIncludeFile.c
+Linking C executable cmTC_5c571
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c571.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_5c571.dir/CheckIncludeFile.c.o -o cmTC_5c571 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Cxd5H4'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-SJMqmT
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_69e5b/fast && /sbin/make  -f CMakeFiles/cmTC_69e5b.dir/build.make CMakeFiles/cmTC_69e5b.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-SJMqmT'
+Building C object CMakeFiles/cmTC_69e5b.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_69e5b.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-SJMqmT/CheckIncludeFile.c
+Linking C executable cmTC_69e5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69e5b.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_69e5b.dir/CheckIncludeFile.c.o -o cmTC_69e5b 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-SJMqmT'
+
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-ngfceM
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_10d89/fast && /sbin/make  -f CMakeFiles/cmTC_10d89.dir/build.make CMakeFiles/cmTC_10d89.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-ngfceM'
+Building C object CMakeFiles/cmTC_10d89.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_10d89.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-ngfceM/CheckIncludeFile.c
+Linking C executable cmTC_10d89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10d89.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_10d89.dir/CheckIncludeFile.c.o -o cmTC_10d89 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-ngfceM'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-IXeuMz
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_bcace/fast && /sbin/make  -f CMakeFiles/cmTC_bcace.dir/build.make CMakeFiles/cmTC_bcace.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-IXeuMz'
+Building C object CMakeFiles/cmTC_bcace.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_bcace.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-IXeuMz/CheckIncludeFile.c
+Linking C executable cmTC_bcace
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcace.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_bcace.dir/CheckIncludeFile.c.o -o cmTC_bcace 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-IXeuMz'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lOLLt3
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_46ce9/fast && /sbin/make  -f CMakeFiles/cmTC_46ce9.dir/build.make CMakeFiles/cmTC_46ce9.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lOLLt3'
+Building C object CMakeFiles/cmTC_46ce9.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_46ce9.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lOLLt3/CheckIncludeFile.c
+Linking C executable cmTC_46ce9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46ce9.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_46ce9.dir/CheckIncludeFile.c.o -o cmTC_46ce9 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lOLLt3'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-j4EN7Z
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_c899d/fast && /sbin/make  -f CMakeFiles/cmTC_c899d.dir/build.make CMakeFiles/cmTC_c899d.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-j4EN7Z'
+Building C object CMakeFiles/cmTC_c899d.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_c899d.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-j4EN7Z/CheckIncludeFile.c
+Linking C executable cmTC_c899d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c899d.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_c899d.dir/CheckIncludeFile.c.o -o cmTC_c899d 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-j4EN7Z'
+
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MmBE7C
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_f93d5/fast && /sbin/make  -f CMakeFiles/cmTC_f93d5.dir/build.make CMakeFiles/cmTC_f93d5.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MmBE7C'
+Building C object CMakeFiles/cmTC_f93d5.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_f93d5.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MmBE7C/CheckIncludeFile.c
+Linking C executable cmTC_f93d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f93d5.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_f93d5.dir/CheckIncludeFile.c.o -o cmTC_f93d5 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MmBE7C'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-X6q9nn
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_69081/fast && /sbin/make  -f CMakeFiles/cmTC_69081.dir/build.make CMakeFiles/cmTC_69081.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-X6q9nn'
+Building C object CMakeFiles/cmTC_69081.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_69081.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-X6q9nn/CheckIncludeFile.c
+Linking C executable cmTC_69081
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69081.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_69081.dir/CheckIncludeFile.c.o -o cmTC_69081 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-X6q9nn'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-kmqaGr
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_81ac7/fast && /sbin/make  -f CMakeFiles/cmTC_81ac7.dir/build.make CMakeFiles/cmTC_81ac7.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-kmqaGr'
+Building C object CMakeFiles/cmTC_81ac7.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_81ac7.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-kmqaGr/CheckIncludeFile.c
+Linking C executable cmTC_81ac7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81ac7.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_81ac7.dir/CheckIncludeFile.c.o -o cmTC_81ac7 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-kmqaGr'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MTSlDI
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_249ec/fast && /sbin/make  -f CMakeFiles/cmTC_249ec.dir/build.make CMakeFiles/cmTC_249ec.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MTSlDI'
+Building C object CMakeFiles/cmTC_249ec.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_249ec.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MTSlDI/CheckIncludeFile.c
+Linking C executable cmTC_249ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_249ec.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_249ec.dir/CheckIncludeFile.c.o -o cmTC_249ec 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-MTSlDI'
+
+
+
+Determining if the include file sys/signal.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-eJBLGp
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_598ff/fast && /sbin/make  -f CMakeFiles/cmTC_598ff.dir/build.make CMakeFiles/cmTC_598ff.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-eJBLGp'
+Building C object CMakeFiles/cmTC_598ff.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_598ff.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-eJBLGp/CheckIncludeFile.c
+Linking C executable cmTC_598ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_598ff.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_598ff.dir/CheckIncludeFile.c.o -o cmTC_598ff 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-eJBLGp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-WOV9NO
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_f9319/fast && /sbin/make  -f CMakeFiles/cmTC_f9319.dir/build.make CMakeFiles/cmTC_f9319.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-WOV9NO'
+Building C object CMakeFiles/cmTC_f9319.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_f9319.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-WOV9NO/CheckIncludeFile.c
+Linking C executable cmTC_f9319
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9319.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_f9319.dir/CheckIncludeFile.c.o -o cmTC_f9319 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-WOV9NO'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-uok8Oi
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_5cd80/fast && /sbin/make  -f CMakeFiles/cmTC_5cd80.dir/build.make CMakeFiles/cmTC_5cd80.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-uok8Oi'
+Building C object CMakeFiles/cmTC_5cd80.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_5cd80.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-uok8Oi/CheckIncludeFile.c
+Linking C executable cmTC_5cd80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd80.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_5cd80.dir/CheckIncludeFile.c.o -o cmTC_5cd80 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-uok8Oi'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9hYtqq
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_f460c/fast && /sbin/make  -f CMakeFiles/cmTC_f460c.dir/build.make CMakeFiles/cmTC_f460c.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9hYtqq'
+Building C object CMakeFiles/cmTC_f460c.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_f460c.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9hYtqq/CheckIncludeFile.c
+Linking C executable cmTC_f460c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f460c.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_f460c.dir/CheckIncludeFile.c.o -o cmTC_f460c 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9hYtqq'
+
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-leoZI7
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_ef6e5/fast && /sbin/make  -f CMakeFiles/cmTC_ef6e5.dir/build.make CMakeFiles/cmTC_ef6e5.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-leoZI7'
+Building C object CMakeFiles/cmTC_ef6e5.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=getenv -o CMakeFiles/cmTC_ef6e5.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-leoZI7/CheckFunctionExists.c
+Linking C executable cmTC_ef6e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef6e5.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=getenv -rdynamic CMakeFiles/cmTC_ef6e5.dir/CheckFunctionExists.c.o -o cmTC_ef6e5 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-leoZI7'
+
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7zGWTX
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_b952e/fast && /sbin/make  -f CMakeFiles/cmTC_b952e.dir/build.make CMakeFiles/cmTC_b952e.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7zGWTX'
+Building C object CMakeFiles/cmTC_b952e.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=getpid -o CMakeFiles/cmTC_b952e.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7zGWTX/CheckFunctionExists.c
+Linking C executable cmTC_b952e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b952e.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=getpid -rdynamic CMakeFiles/cmTC_b952e.dir/CheckFunctionExists.c.o -o cmTC_b952e 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7zGWTX'
+
+
+
+Determining if the function isatty exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-uGTFIh
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_4d061/fast && /sbin/make  -f CMakeFiles/cmTC_4d061.dir/build.make CMakeFiles/cmTC_4d061.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-uGTFIh'
+Building C object CMakeFiles/cmTC_4d061.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=isatty -o CMakeFiles/cmTC_4d061.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-uGTFIh/CheckFunctionExists.c
+Linking C executable cmTC_4d061
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d061.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=isatty -rdynamic CMakeFiles/cmTC_4d061.dir/CheckFunctionExists.c.o -o cmTC_4d061 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-uGTFIh'
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-W0c56L
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_552c7/fast && /sbin/make  -f CMakeFiles/cmTC_552c7.dir/build.make CMakeFiles/cmTC_552c7.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-W0c56L'
+Building C object CMakeFiles/cmTC_552c7.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=memmove -o CMakeFiles/cmTC_552c7.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-W0c56L/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memmove’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-W0c56L/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-W0c56L/CheckFunctionExists.c:1:1: note: ‘memmove’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_552c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_552c7.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=memmove -rdynamic CMakeFiles/cmTC_552c7.dir/CheckFunctionExists.c.o -o cmTC_552c7 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-W0c56L'
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z2fY3q
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_b4729/fast && /sbin/make  -f CMakeFiles/cmTC_b4729.dir/build.make CMakeFiles/cmTC_b4729.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z2fY3q'
+Building C object CMakeFiles/cmTC_b4729.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=memset -o CMakeFiles/cmTC_b4729.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z2fY3q/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z2fY3q/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z2fY3q/CheckFunctionExists.c:1:1: note: ‘memset’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_b4729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4729.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=memset -rdynamic CMakeFiles/cmTC_b4729.dir/CheckFunctionExists.c.o -o cmTC_b4729 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z2fY3q'
+
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-T1gWXa
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_7abb3/fast && /sbin/make  -f CMakeFiles/cmTC_7abb3.dir/build.make CMakeFiles/cmTC_7abb3.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-T1gWXa'
+Building C object CMakeFiles/cmTC_7abb3.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp -o CMakeFiles/cmTC_7abb3.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-T1gWXa/CheckFunctionExists.c
+Linking C executable cmTC_7abb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7abb3.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=mkstemp -rdynamic CMakeFiles/cmTC_7abb3.dir/CheckFunctionExists.c.o -o cmTC_7abb3 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-T1gWXa'
+
+
+
+Determining if the function mktemp exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-XN48ez
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_cbea4/fast && /sbin/make  -f CMakeFiles/cmTC_cbea4.dir/build.make CMakeFiles/cmTC_cbea4.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-XN48ez'
+Building C object CMakeFiles/cmTC_cbea4.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=mktemp -o CMakeFiles/cmTC_cbea4.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-XN48ez/CheckFunctionExists.c
+Linking C executable cmTC_cbea4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbea4.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=mktemp -rdynamic CMakeFiles/cmTC_cbea4.dir/CheckFunctionExists.c.o -o cmTC_cbea4 
+/sbin/ld: CMakeFiles/cmTC_cbea4.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-XN48ez'
+
+
+
+Determining if the function popen exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-a0a75A
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_0a416/fast && /sbin/make  -f CMakeFiles/cmTC_0a416.dir/build.make CMakeFiles/cmTC_0a416.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-a0a75A'
+Building C object CMakeFiles/cmTC_0a416.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=popen -o CMakeFiles/cmTC_0a416.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-a0a75A/CheckFunctionExists.c
+Linking C executable cmTC_0a416
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a416.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=popen -rdynamic CMakeFiles/cmTC_0a416.dir/CheckFunctionExists.c.o -o cmTC_0a416 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-a0a75A'
+
+
+
+Determining if the function random exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-eE7mOC
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_facc7/fast && /sbin/make  -f CMakeFiles/cmTC_facc7.dir/build.make CMakeFiles/cmTC_facc7.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-eE7mOC'
+Building C object CMakeFiles/cmTC_facc7.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=random -o CMakeFiles/cmTC_facc7.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-eE7mOC/CheckFunctionExists.c
+Linking C executable cmTC_facc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_facc7.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=random -rdynamic CMakeFiles/cmTC_facc7.dir/CheckFunctionExists.c.o -o cmTC_facc7 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-eE7mOC'
+
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7JDGVs
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_224ea/fast && /sbin/make  -f CMakeFiles/cmTC_224ea.dir/build.make CMakeFiles/cmTC_224ea.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7JDGVs'
+Building C object CMakeFiles/cmTC_224ea.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=realloc -o CMakeFiles/cmTC_224ea.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7JDGVs/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘realloc’; expected ‘void *(void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7JDGVs/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7JDGVs/CheckFunctionExists.c:1:1: note: ‘realloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_224ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_224ea.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=realloc -rdynamic CMakeFiles/cmTC_224ea.dir/CheckFunctionExists.c.o -o cmTC_224ea 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-7JDGVs'
+
+
+
+Determining if the function setvbuf exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lcDD3T
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_3ce5e/fast && /sbin/make  -f CMakeFiles/cmTC_3ce5e.dir/build.make CMakeFiles/cmTC_3ce5e.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lcDD3T'
+Building C object CMakeFiles/cmTC_3ce5e.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=setvbuf -o CMakeFiles/cmTC_3ce5e.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lcDD3T/CheckFunctionExists.c
+Linking C executable cmTC_3ce5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ce5e.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=setvbuf -rdynamic CMakeFiles/cmTC_3ce5e.dir/CheckFunctionExists.c.o -o cmTC_3ce5e 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-lcDD3T'
+
+
+
+Determining if the function srandom exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-VOYSyV
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_63a9d/fast && /sbin/make  -f CMakeFiles/cmTC_63a9d.dir/build.make CMakeFiles/cmTC_63a9d.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-VOYSyV'
+Building C object CMakeFiles/cmTC_63a9d.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=srandom -o CMakeFiles/cmTC_63a9d.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-VOYSyV/CheckFunctionExists.c
+Linking C executable cmTC_63a9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63a9d.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=srandom -rdynamic CMakeFiles/cmTC_63a9d.dir/CheckFunctionExists.c.o -o cmTC_63a9d 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-VOYSyV'
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-g3cqH3
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_b6243/fast && /sbin/make  -f CMakeFiles/cmTC_b6243.dir/build.make CMakeFiles/cmTC_b6243.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-g3cqH3'
+Building C object CMakeFiles/cmTC_b6243.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp -o CMakeFiles/cmTC_b6243.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-g3cqH3/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+Linking C executable cmTC_b6243
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6243.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp -rdynamic CMakeFiles/cmTC_b6243.dir/CheckFunctionExists.c.o -o cmTC_b6243 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-g3cqH3'
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4Wzv5i
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_ad5a8/fast && /sbin/make  -f CMakeFiles/cmTC_ad5a8.dir/build.make CMakeFiles/cmTC_ad5a8.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4Wzv5i'
+Building C object CMakeFiles/cmTC_ad5a8.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=strchr -o CMakeFiles/cmTC_ad5a8.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4Wzv5i/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4Wzv5i/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4Wzv5i/CheckFunctionExists.c:1:1: note: ‘strchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_ad5a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad5a8.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=strchr -rdynamic CMakeFiles/cmTC_ad5a8.dir/CheckFunctionExists.c.o -o cmTC_ad5a8 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4Wzv5i'
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vm0vIB
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_1b8cf/fast && /sbin/make  -f CMakeFiles/cmTC_1b8cf.dir/build.make CMakeFiles/cmTC_1b8cf.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vm0vIB'
+Building C object CMakeFiles/cmTC_1b8cf.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=strrchr -o CMakeFiles/cmTC_1b8cf.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vm0vIB/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strrchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vm0vIB/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vm0vIB/CheckFunctionExists.c:1:1: note: ‘strrchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_1b8cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b8cf.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=strrchr -rdynamic CMakeFiles/cmTC_1b8cf.dir/CheckFunctionExists.c.o -o cmTC_1b8cf 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vm0vIB'
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vqxci8
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_9a538/fast && /sbin/make  -f CMakeFiles/cmTC_9a538.dir/build.make CMakeFiles/cmTC_9a538.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vqxci8'
+Building C object CMakeFiles/cmTC_9a538.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=strstr -o CMakeFiles/cmTC_9a538.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vqxci8/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strstr’; expected ‘char *(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vqxci8/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vqxci8/CheckFunctionExists.c:1:1: note: ‘strstr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_9a538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a538.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=strstr -rdynamic CMakeFiles/cmTC_9a538.dir/CheckFunctionExists.c.o -o cmTC_9a538 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Vqxci8'
+
+
+
+Determining if the function strtod exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-dkw7Ew
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_84898/fast && /sbin/make  -f CMakeFiles/cmTC_84898.dir/build.make CMakeFiles/cmTC_84898.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-dkw7Ew'
+Building C object CMakeFiles/cmTC_84898.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=strtod -o CMakeFiles/cmTC_84898.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-dkw7Ew/CheckFunctionExists.c
+Linking C executable cmTC_84898
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84898.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=strtod -rdynamic CMakeFiles/cmTC_84898.dir/CheckFunctionExists.c.o -o cmTC_84898 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-dkw7Ew'
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-v2vHhy
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_4642d/fast && /sbin/make  -f CMakeFiles/cmTC_4642d.dir/build.make CMakeFiles/cmTC_4642d.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-v2vHhy'
+Building C object CMakeFiles/cmTC_4642d.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=strtol -o CMakeFiles/cmTC_4642d.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-v2vHhy/CheckFunctionExists.c
+Linking C executable cmTC_4642d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4642d.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=strtol -rdynamic CMakeFiles/cmTC_4642d.dir/CheckFunctionExists.c.o -o cmTC_4642d 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-v2vHhy'
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-b13Jp6
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_f3c8f/fast && /sbin/make  -f CMakeFiles/cmTC_f3c8f.dir/build.make CMakeFiles/cmTC_f3c8f.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-b13Jp6'
+Building C object CMakeFiles/cmTC_f3c8f.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=strtoull -o CMakeFiles/cmTC_f3c8f.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-b13Jp6/CheckFunctionExists.c
+Linking C executable cmTC_f3c8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3c8f.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=strtoull -rdynamic CMakeFiles/cmTC_f3c8f.dir/CheckFunctionExists.c.o -o cmTC_f3c8f 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-b13Jp6'
+
+
+
+Determining if the function system exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-BA37pc
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_0ac40/fast && /sbin/make  -f CMakeFiles/cmTC_0ac40.dir/build.make CMakeFiles/cmTC_0ac40.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-BA37pc'
+Building C object CMakeFiles/cmTC_0ac40.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=system -o CMakeFiles/cmTC_0ac40.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-BA37pc/CheckFunctionExists.c
+Linking C executable cmTC_0ac40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ac40.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=system -rdynamic CMakeFiles/cmTC_0ac40.dir/CheckFunctionExists.c.o -o cmTC_0ac40 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-BA37pc'
+
+
+
+Determining if the function tmpnam exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-KDdNfS
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_430ac/fast && /sbin/make  -f CMakeFiles/cmTC_430ac.dir/build.make CMakeFiles/cmTC_430ac.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-KDdNfS'
+Building C object CMakeFiles/cmTC_430ac.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=tmpnam -o CMakeFiles/cmTC_430ac.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-KDdNfS/CheckFunctionExists.c
+Linking C executable cmTC_430ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_430ac.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=tmpnam -rdynamic CMakeFiles/cmTC_430ac.dir/CheckFunctionExists.c.o -o cmTC_430ac 
+/sbin/ld: CMakeFiles/cmTC_430ac.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-KDdNfS'
+
+
+
+Determining if the function vprintf exists passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z6LNb9
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_078cf/fast && /sbin/make  -f CMakeFiles/cmTC_078cf.dir/build.make CMakeFiles/cmTC_078cf.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z6LNb9'
+Building C object CMakeFiles/cmTC_078cf.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=vprintf -o CMakeFiles/cmTC_078cf.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z6LNb9/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘vprintf’; expected ‘int(const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z6LNb9/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z6LNb9/CheckFunctionExists.c:1:1: note: ‘vprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_078cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_078cf.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=vprintf -rdynamic CMakeFiles/cmTC_078cf.dir/CheckFunctionExists.c.o -o cmTC_078cf 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-Z6LNb9'
+
+
+
+Performing C SOURCE FILE Test HAVE__BOOL succeeded with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-G0VCD3
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_b653f/fast && /sbin/make  -f CMakeFiles/cmTC_b653f.dir/build.make CMakeFiles/cmTC_b653f.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-G0VCD3'
+Building C object CMakeFiles/cmTC_b653f.dir/src.c.o
+/sbin/cc -DHAVE__BOOL   -o CMakeFiles/cmTC_b653f.dir/src.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-G0VCD3/src.c
+Linking C executable cmTC_b653f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b653f.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_b653f.dir/src.c.o -o cmTC_b653f 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-G0VCD3'
+
+
+Source file was:
+
+    #include <stdbool.h>
+    int main(void)
+    {
+        _Bool b;
+        return 0;
+    }
+    
+
+Determining size of int passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-jCBSfx
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_7675a/fast && /sbin/make  -f CMakeFiles/cmTC_7675a.dir/build.make CMakeFiles/cmTC_7675a.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-jCBSfx'
+Building C object CMakeFiles/cmTC_7675a.dir/SIZEOF_INT.c.o
+/sbin/cc    -o CMakeFiles/cmTC_7675a.dir/SIZEOF_INT.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-jCBSfx/SIZEOF_INT.c
+Linking C executable cmTC_7675a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7675a.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_7675a.dir/SIZEOF_INT.c.o -o cmTC_7675a 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-jCBSfx'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-nfj5wT
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_397e1/fast && /sbin/make  -f CMakeFiles/cmTC_397e1.dir/build.make CMakeFiles/cmTC_397e1.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-nfj5wT'
+Building C object CMakeFiles/cmTC_397e1.dir/SIZEOF_LONG.c.o
+/sbin/cc    -o CMakeFiles/cmTC_397e1.dir/SIZEOF_LONG.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-nfj5wT/SIZEOF_LONG.c
+Linking C executable cmTC_397e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_397e1.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_397e1.dir/SIZEOF_LONG.c.o -o cmTC_397e1 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-nfj5wT'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-8PxN9V
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_78d5e/fast && /sbin/make  -f CMakeFiles/cmTC_78d5e.dir/build.make CMakeFiles/cmTC_78d5e.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-8PxN9V'
+Building C object CMakeFiles/cmTC_78d5e.dir/SIZEOF_LONG_LONG.c.o
+/sbin/cc    -o CMakeFiles/cmTC_78d5e.dir/SIZEOF_LONG_LONG.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-8PxN9V/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_78d5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78d5e.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_78d5e.dir/SIZEOF_LONG_LONG.c.o -o cmTC_78d5e 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-8PxN9V'
+
+
+
+Determining size of void * passed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9bqNEu
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_e7faa/fast && /sbin/make  -f CMakeFiles/cmTC_e7faa.dir/build.make CMakeFiles/cmTC_e7faa.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9bqNEu'
+Building C object CMakeFiles/cmTC_e7faa.dir/SIZEOF_VOID_P.c.o
+/sbin/cc    -o CMakeFiles/cmTC_e7faa.dir/SIZEOF_VOID_P.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9bqNEu/SIZEOF_VOID_P.c
+Linking C executable cmTC_e7faa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7faa.dir/link.txt --verbose=1
+/sbin/cc -rdynamic CMakeFiles/cmTC_e7faa.dir/SIZEOF_VOID_P.c.o -o cmTC_e7faa 
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9bqNEu'
+
+
+

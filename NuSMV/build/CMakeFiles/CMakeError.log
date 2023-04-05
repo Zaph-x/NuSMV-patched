@@ -1,0 +1,86 @@
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-aUAoEQ
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_7f7e2/fast && /sbin/make  -f CMakeFiles/cmTC_7f7e2.dir/build.make CMakeFiles/cmTC_7f7e2.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-aUAoEQ'
+Building C object CMakeFiles/cmTC_7f7e2.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_7f7e2.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-aUAoEQ/CheckIncludeFile.c
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-aUAoEQ/CheckIncludeFile.c:1:10: fatal error: ndir.h: No such file or directory
+    1 | #include <ndir.h>
+      |          ^~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7f7e2.dir/build.make:78: CMakeFiles/cmTC_7f7e2.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-aUAoEQ'
+make: *** [Makefile:127: cmTC_7f7e2/fast] Error 2
+
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9ROaPA
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_013de/fast && /sbin/make  -f CMakeFiles/cmTC_013de.dir/build.make CMakeFiles/cmTC_013de.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9ROaPA'
+Building C object CMakeFiles/cmTC_013de.dir/CheckIncludeFile.c.o
+/sbin/cc    -o CMakeFiles/cmTC_013de.dir/CheckIncludeFile.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9ROaPA/CheckIncludeFile.c
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9ROaPA/CheckIncludeFile.c:1:10: fatal error: sys/ndir.h: No such file or directory
+    1 | #include <sys/ndir.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_013de.dir/build.make:78: CMakeFiles/cmTC_013de.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-9ROaPA'
+make: *** [Makefile:127: cmTC_013de/fast] Error 2
+
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4HdnwT
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_fadc9/fast && /sbin/make  -f CMakeFiles/cmTC_fadc9.dir/build.make CMakeFiles/cmTC_fadc9.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4HdnwT'
+Building C object CMakeFiles/cmTC_fadc9.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=floor -o CMakeFiles/cmTC_fadc9.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4HdnwT/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘floor’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4HdnwT/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4HdnwT/CheckFunctionExists.c:1:1: note: ‘floor’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_fadc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fadc9.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=floor -rdynamic CMakeFiles/cmTC_fadc9.dir/CheckFunctionExists.c.o -o cmTC_fadc9 
+/sbin/ld: CMakeFiles/cmTC_fadc9.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_fadc9.dir/build.make:99: cmTC_fadc9] Error 1
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-4HdnwT'
+make: *** [Makefile:127: cmTC_fadc9/fast] Error 2
+
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-A69D9I
+
+Run Build Command(s):/sbin/make -f Makefile cmTC_e8db4/fast && /sbin/make  -f CMakeFiles/cmTC_e8db4.dir/build.make CMakeFiles/cmTC_e8db4.dir/build
+make[1]: Entering directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-A69D9I'
+Building C object CMakeFiles/cmTC_e8db4.dir/CheckFunctionExists.c.o
+/sbin/cc   -DCHECK_FUNCTION_EXISTS=pow -o CMakeFiles/cmTC_e8db4.dir/CheckFunctionExists.c.o -c /home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-A69D9I/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-A69D9I/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-A69D9I/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_e8db4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8db4.dir/link.txt --verbose=1
+/sbin/cc  -DCHECK_FUNCTION_EXISTS=pow -rdynamic CMakeFiles/cmTC_e8db4.dir/CheckFunctionExists.c.o -o cmTC_e8db4 
+/sbin/ld: CMakeFiles/cmTC_e8db4.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e8db4.dir/build.make:99: cmTC_e8db4] Error 1
+make[1]: Leaving directory '/home/zaph/src/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeScratch/TryCompile-A69D9I'
+make: *** [Makefile:127: cmTC_e8db4/fast] Error 2
+
+
+
