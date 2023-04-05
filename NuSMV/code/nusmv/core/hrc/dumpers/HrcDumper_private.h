@@ -115,13 +115,13 @@ typedef struct HrcDumper_TAG
 #define _HRC_DUMP_STR(x)          \
   {                               \
     hrc_dumper_dump_indent(self); \
-    fprintf(self->fout, x);       \
+    fprintf(self->fout, "%s", x);       \
   }
 
 #define _HRC_DUMP_STR_NL(x)                                           \
   {                                                                   \
     hrc_dumper_dump_indent(self);                                     \
-    fprintf(self->fout, x);                                           \
+    fprintf(self->fout, "%s", x);                                           \
     hrc_dumper_nl(self);                                              \
   }
 

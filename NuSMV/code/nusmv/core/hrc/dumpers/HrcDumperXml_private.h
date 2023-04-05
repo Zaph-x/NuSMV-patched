@@ -92,7 +92,7 @@ typedef struct HrcDumperXml_TAG
 #define _HRC_DUMP_STR_NL(x)                                           \
   {                                                                   \
     hrc_dumper_dump_indent(self);                                     \
-    fprintf(self->fout, x);                                           \
+    fprintf(self->fout, "%s", x);                                           \
     if (self->use_indentation) {                                      \
       hrc_dumper_nl(self);                                            \
     }                                                                 \
