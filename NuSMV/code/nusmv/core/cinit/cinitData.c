@@ -466,7 +466,7 @@ void NuSMVCore_init_cmd_options(NuSMVEnv_ptr env)
     else {
       const char* preps_fmt = "Warning: there are no available preprocessors";
       preps_tmp = ALLOC(char, strlen(preps_fmt) + 1);
-      sprintf(preps_tmp, "%s", preps_fmt);
+      sprintf(preps_tmp, preps_fmt);
     }
 
     tmp = ALLOC(char, strlen(fmt) + strlen(preps_tmp) + 1);

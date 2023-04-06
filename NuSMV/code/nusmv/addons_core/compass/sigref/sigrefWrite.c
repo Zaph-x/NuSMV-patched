@@ -527,7 +527,7 @@ static void compass_write_sigref_adds(FILE* file,
 
   DDMgr_ptr dd = BddEnc_get_dd_manager(enc);
 
-  fprintf(file, "%s", SIGREF_HEADER);
+  fprintf(file, SIGREF_HEADER);
   fprintf(file, "\n<%s ", MODEL_TAG);
   fprintf(file, MODEL_FM, MODEL_TYPE);
   fprintf(file, ">\n");
